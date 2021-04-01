@@ -4,6 +4,7 @@ body{
     background:hsl(257, 40%, 49%) url('/images/bg-desktop.svg') no-repeat;
     background-size: cover;
     color:#fff;
+    min-height: 100vh;
 }
 h1{
     font-family: 'Poppins', sans-serif;
@@ -40,6 +41,7 @@ width:60%;
     box-shadow: 10px 10px 10px 10px hsl(257, 40%, 49%);
     border:0px;
     color:hsl(257, 40%, 49%);
+    cursor:pointer;
 }
 .button:hover, .button:active{
     color:#fff;
@@ -55,13 +57,14 @@ width:60%;
     padding:10px;
     border-radius: 50%;
     margin:5px;
+    cursor: pointer;
 }
 .fab:hover{
     color:hsl(300, 69%, 71%);
     border-color:hsl(300, 69%, 71%);
 
 }
-@media (max-width: 425px){
+@media (max-width: 430px){
     body{
         background:hsl(257, 40%, 49%) url('/images/bg-mobile.svg') no-repeat;
     }
