@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    background:hsl(257, 40%, 49%) url('/images/bg-desktop.svg') no-repeat;
+    background-size: cover;
+    color:#fff;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    margin-top:50px;
+    margin-left:50px;
+}
+.row{
+    display:flex;
+    flex-wrap:row nowrap;
+    justify-content: center;
+    align-items:center;
+    min-height: 80vh;    
+}
+.column{
+    width:50%;
+    margin:50px;
+}
+.column img{
+    width:100%;
+}
+
+.button{
+    padding:18px 80px;
+    font-size: 16px;;
+    background-color:#fff;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px hsl(257, 40%, 49%);
+    border:0px;
+    color:hsl(257, 40%, 49%);
+}
+.button:hover, .button:active{
+    color:#fff;
+    background:hsl(300, 69%, 71%);
+}
+.social-icons{
+    position:absolute;
+    bottom:20px;
+    right:100px;
+}
+.fab{
+    border: 1px solid #fff;
+    padding:10px;
+    border-radius: 50%;
+    margin:5px;
+}
+.fab:hover{
+    color:hsl(300, 69%, 71%);
+    border-color:hsl(300, 69%, 71%);
+
+}
+@media (max-width: 425px){
+    body{
+        background:hsl(257, 40%, 49%) url('/images/bg-mobile.svg') no-repeat;
+    }
+    h1{
+        font-size:24px;;
+    }
+    .logo{
+        margin-left:20px;
+    }
+    .logo img{
+        width:150px;
+    }
+
+    .row{
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        margin:0 20px;
+    }
+    .column{
+        padding:0;
+        margin:20px;        
+        width:100%;
+        text-align: center;        
+        justify-content:space-evenly;
+        font-size:1rem;
+    }
+   
+    .button{
+        padding:2vw 8vh;
+        font-size:1em;
+    }
+    .social-icons{
+        margin:auto;   
+        padding:0;
+        bottom:8vh;    
+        width:40vw;
+    }
+    
+}
