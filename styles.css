@@ -20,8 +20,13 @@ h1{
     min-height: 80vh;    
 }
 .column{
-    width:50%;
     margin:50px;
+}
+.col1{
+width:60%;
+}
+.col2{
+    width:40%;
 }
 .column img{
     width:100%;
