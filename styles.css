@@ -26,12 +26,12 @@ h1{
 .row{
     display:flex;
     flex-wrap:row nowrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items:flex-start;
     min-height: 80vh;    
 }
 .column{
-    margin:50px 30px 30px 50px;
+    margin:100px 20px 0 50px;
 }
 .col1{
 width:50%;
